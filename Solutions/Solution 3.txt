@@ -1,0 +1,1 @@
+ The given scenario is possible when the IV and key remains the same throughout. If we pass any number of messages, we can interrupt them and change the message when the IV and key are the same. This method is insecure for exchanging messages.We should practice a secured type of message transfer by generating key and IV randomly for each time and every time we pass a message.}
